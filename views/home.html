@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+<link rel="stylesheet" href="/css/style.css">
+
     <title>Mercado Liebre</title>
 </head>
 <body>
     <header>
-        <div><img src="/img/logo-mercado-liebre.svg" alt=""></div>
-        <br>
-        <p>Lugar para poner barra de Busqueda</p>
-        <p>Comprar en cuotas y sin tarjeta de creditos</p>
+        <div class="logo"><img src="/img/logo-mercado-liebre.svg" alt=""></div>
+        <div class="search-bar">
+            <input type="search" placeholder="Buscar productos,marcas">
+        </div>
+        
+        <button class="boton">
+            <i class="fas fa-search">
+            </i></button>
+        
+        <p>
+            <i class="fas fa-hand-holding-usd"></i>
+                 Comprar en cuotas y sin tarjeta de creditos</p>
         <br>
         <nav>
-        <ul>
+        <ul id="top-list">
             <li><a href="">Ofertas</a></li>
             <li><a href="">Tiendas Oficiales</a></li>
             <li><a href="">Vender</a></li>
@@ -23,11 +37,19 @@
         </ul>
         <br>
         <ul>
-            <li><a href="">Creá tu cuenta</a></li>
-            <li><a href="">Ingresá</a></li>
-            <li><a href="">Mis Compras</a></li>
+            <li><a href="">Creá tu cuenta<i class="fas fa-credit-card"></i>
+            </a></li>
+            <li><a href="">Ingresá<i class="fas fa-sign-in-alt "></i>
+
+            </a></li>
+            <li><a href="">Mis Compras<i class="fas fa-shopping-basket "></i>
+            </a></li>
 
         </nav>
+        <div class="burguer-menu">
+            <i class="fas fa-bars"></i>
+            </div>
+            
 
     </header>
 
@@ -122,7 +144,7 @@
             </p>
         </div>
         <div>
-            <p>Copyright© 1999-2020 MercadoLebre S.R.L</p>
+            <p>Copyright© 1999-2020 MercadoLiebre S.R.L</p>
         </div>
 
 
